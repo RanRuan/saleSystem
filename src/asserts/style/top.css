@@ -1,0 +1,23 @@
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: .64rem;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+    width: 100%; 
+    z-index: 999;
+    background: #7E57C2;    
+}
+.top .iconfont {
+    font-size: 40px;
+    position: absolute;
+    left: .346667rem;
+    color: #FFFFFF;
+}
+.top span {
+    display: inline-block;
+    width: 60%;
+    height: 60px;
+}

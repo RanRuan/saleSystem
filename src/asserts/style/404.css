@@ -1,0 +1,24 @@
+.error {
+    margin: 100px 0;
+    text-align: center;
+    background: #fff;
+    color: #ccc;
+}
+.error h2 {
+    font-size: 1.6rem;
+}
+.error h3 {
+    font-size: 1.066667rem;
+}
+.error p i{
+    font-size: 2.666667rem;
+}
+.error p {
+    margin-top: .533333rem;
+}
+.error p {
+    margin-top: .533333rem;
+}
+.error p a{
+    font-size: .8rem;
+}

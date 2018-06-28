@@ -1,0 +1,10 @@
+.list-index{
+    width: .64rem;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 4.106667rem;
+    font-size: .32rem;
+    color: #989898;
+    line-height: .426667rem;
+}

@@ -1,0 +1,180 @@
+.pop {
+    height: 100%;
+    width: 100%;
+    z-index: 123;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.17);
+}
+.popWrap {
+    position: absolute;
+    width: 100%; 
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 -4px 4px 0 rgba(0,0,0,0.17);
+}
+.popWrap .del {
+    z-index: 333;
+    position: absolute;
+    right: .32rem;
+    top: 0.32rem;
+    font-size: .426667rem;
+    font-size: .533333rem;
+    color:  #979797;
+}
+.pop-title {
+    font-size: .426667rem;
+    color: #38383A;
+    text-align: center;
+    line-height: 1.333333rem;
+}
+
+.form-list {
+    border-bottom: 1px solid #E2E2E2;
+}
+.form-list .parentId{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.form-list li {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+    font-size: .373333rem;
+    line-height: .746667rem;
+    color: #38383A;
+    margin-bottom: .266667rem;
+}
+.form-list li label {
+    width: 20%;
+    text-align: right;
+    margin-left: -.32rem ;
+    padding-right: .32rem;
+}
+.form-list li>div {
+    width: 100%;
+}
+.form-list  input {
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    height: .746667rem;
+    width: 40%;
+    margin-right: 10px;
+}
+.form-list li p{
+    text-align:center;
+    width: 100%;
+    color:red;
+}
+
+.form-list textarea {
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    width: 40%;
+    height: 1.6rem;
+    margin-right: 10px;
+}
+.btn-wrap {
+    height: 1.493333rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.493333rem;
+    font-size: .373333rem;
+    color: #7E57C2;
+    border: 1px solid #E2E2E2;
+}
+
+/* 分支 */
+
+.agents-wrap li {
+    text-align: center;
+    color: #FFFFFF;
+}
+.agents-wrap li p{
+    font-size: .32rem;
+    width: 30%;
+    height: .586667rem;
+    line-height: .586667rem;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.agents-wrap .zongDai {
+     background: #4A90E2;
+}
+.agents-wrap .fenDai {
+      background: #F5A623;
+}
+.agents-wrap .puDai {
+     background: #B8E986;
+}
+.agents-wrap li span {
+    display: inline-block;
+    height: 1.44rem;
+    border: 1px solid #9B9B9B;
+    
+}
+.agents-wrap li:nth-of-type(2) span{
+    height: 2.586667rem;
+    border-style: dotted;
+}
+.addIcon span{
+    position: fixed;
+    right: .373333rem;
+    bottom: .453333rem;
+    background: #7E57C2;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 25px;
+    line-height: 50px;
+    z-index: 2;
+}
+button.addIcon {
+    position: fixed;
+    right: .373333rem;
+    bottom: .453333rem;
+    background-color: transparent;
+    border: none;
+}
+
+.addIcon span i{
+    font-size: 30px;
+}
+.QR span:after {
+    content: '查看邀请码';
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    bottom: -5px;
+    left: -5px;
+    font-size: 12px;
+    color: #7E57C2;
+}
+.am-list-item .am-list-line .am-list-arrow{
+    transform: rotate(90deg);
+}
+.am-list-item .am-list-line .am-list-extra{
+    font-size: .373333rem;
+    overflow: auto;
+     width:60%;
+}
+.am-list-item .am-list-line .am-list-content {
+    width: 20%;
+    font-size: .373333rem;
+    color: #38383A;
+    text-align: center;
+}
+
+div .am-list-content {
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,35 @@
+.mainList {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70%;
+}
+.mainList li{
+    width: 50%;
+    height: 33%;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 4rem;
+    border:1px solid #E2E2E2;
+}
+.mainList li a {
+    display: inline-block;
+    text-decoration: none;
+}
+.mainList li span {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: #38383A;
+}
+
+.mainList li .iconfont {
+    font-size: .8rem;
+    margin-right: 6px;
+}
+.mainList li {
+    font-size: .533333rem;
+    letter-spacing: .044533rem;
+}
